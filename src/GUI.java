@@ -36,10 +36,10 @@ public class GUI {
     public GUI(int level,int board_size,int rows_start, player_enum starter ) {
 
         try {
-            Image buttonIconBR=ImageIO.read(new File("C:\\Users\\odedb\\OneDrive\\Desktop\\blackchecker - Copy.gif"));
-            Image buttonIconBK=ImageIO.read(new File("C:\\Users\\odedb\\OneDrive\\Desktop\\blackking - Copy.png"));
-            Image buttonIconWR=ImageIO.read(new File("C:\\Users\\odedb\\OneDrive\\Desktop\\whitechecker - Copy.gif"));
-            Image buttonIconWK=ImageIO.read(new File("C:\\Users\\odedb\\OneDrive\\Desktop\\whiteking - Copy.png"));
+            Image buttonIconBR=ImageIO.read(new File("C:\\Users\\odedb\\IdeaProjects\\ckeckers_withoutBot\\images\\blackchecker - Copy.gif"));
+            Image buttonIconBK=ImageIO.read(new File("C:\\Users\\odedb\\IdeaProjects\\ckeckers_withoutBot\\images\\blackking - Copy.png"));
+            Image buttonIconWR=ImageIO.read(new File("C:\\Users\\odedb\\IdeaProjects\\ckeckers_withoutBot\\images\\whitechecker - Copy.gif"));
+            Image buttonIconWK=ImageIO.read(new File("C:\\Users\\odedb\\IdeaProjects\\ckeckers_withoutBot\\images\\whiteking - Copy.png"));
             int size;
             if (board_size==10){
                 size=80;
